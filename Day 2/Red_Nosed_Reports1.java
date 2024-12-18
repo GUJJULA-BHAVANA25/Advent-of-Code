@@ -3,7 +3,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class RedNosedReports {
+public class Red_Nosed_Reports1 {
 
     // Check if levels are strictly increasing
     public static boolean isIncreasing(int[] levels) {
@@ -30,7 +30,7 @@ public class RedNosedReports {
     public static void main(String[] args) {
         try {
             // Read input from file
-            List<String> lines = Files.readAllLines(Paths.get("Day 2//input1.txt"));
+            List<String> lines = Files.readAllLines(Paths.get("E:\\Hackathons\\Advent of Code\\Day 2\\input1.txt"));
             int safeCount = 0;
 
             for (String line : lines) {

@@ -47,7 +47,7 @@ public class Red_Nosed_Reports2 {
     public static void main(String[] args) {
         try {
             // Read input from file
-            List<String> lines = Files.readAllLines(Paths.get("Day 2//input1.txt"));
+            List<String> lines = Files.readAllLines(Paths.get("E:\\Hackathons\\Advent of Code\\Day 2\\input1.txt"));
             int safeCount = 0;
 
             for (String line : lines) {
